@@ -6,19 +6,38 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Viewlands Playground',
+			// social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
+				{ label: 'Home', link: '/' },
 				{
-					label: 'Guides',
+					label: 'Vision',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Project Goals / Timeline', slug: 'project-goals' },
+						{ label: 'Educational Context', slug: 'education' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'The Plan',
+					items: [
+						{ label: 'Community Engagement', slug: 'community-engagement' },
+						{ label: 'Natural & Built Environment', slug: 'natural-and-built-environment' },
+						{ label: 'Engaging Play Experiences', slug: 'engaging-play-experiences' },
+					],
+				},
+				{
+					label: 'Support Us',
+					items: [
+						{ label: 'How You Can Help', slug: 'how-you-can-help' },
+						{ label: 'Fundraising', slug: 'fundraising' },
+						{ label: 'Our Supporters', slug: 'supporters' },
+					],
+				},
+				{
+					label: 'References',
+					items: [
+					{ label: 'Meeting Minutes', slug: 'minutes' },
+					],
 				},
 			],
 		}),

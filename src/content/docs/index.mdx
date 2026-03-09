@@ -1,40 +1,63 @@
 ---
-title: Welcome to Starlight
+title: A Better Playground for Viewlands
 description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+tableOfContents: false
+# template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: We are a group of parents working to improve Viewlands Primary playground - for our children, and the wider Perth community
+  # image:
+  # file: ../../assets/playground.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Explore Project Goals
+      link: /project-goals/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Support Us
+      link: /how-you-can-help/
+      icon: right-arrow
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import {
+  Card,
+  CardGrid,
+  LinkButton,
+  Aside,
+} from "@astrojs/starlight/components";
 
-## Next steps
+## Our School Grounds Today
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+Located at one of the highest points in Perth, Viewlands Primary enjoys a prominent position, but our playground currently faces significant challenges.
+
+The existing space is largely dominated by asphalt, leaving the grounds feeling **sparse and exposed** to the wind and rain. While our school community is vibrant, the physical environment often falls short of modern play standards. Key issues we are addressing include:
+
+- **Weather Exposure:** A lack of shelter at the "top of the hill" limits outdoor play during wet and windy periods.
+- **The "Mud Factor":** Poor drainage and deteriorating grass surfaces make large areas of the site unusable for much of the school year.
+- **Play Balance:** A lack of defined "zones" leads to high-energy games unintentionally dominating the space, leaving fewer options for quiet or creative play.
+
+---
+
+## The Vision: A Learning Landscape
+
+We are working to transform these grounds into a multi-functional **Learning Landscape**. This is an ambitious, multi-year project with an estimated total cost of **£200,000 – £250,000**.
+
+Our approach is built on two complementary workstreams: improving the physical infrastructure through landscaping and seating, and installing modern play equipment that encourages **managed risk** and physical development.
+
+<LinkButton href="/project-goals/" icon="right-arrow">
+  Explore our Project Goals
+</LinkButton>
+
+---
+
+## A Community Effort
+
+A project of this scale is only possible through the collective energy of our school family and local partners. We would like to extend our sincere thanks to the organisations that have supported us so far.
+
+<LinkButton href="/our-supporters/">Meet our Supporters</LinkButton>
+
+---
+
+<Aside type="tip" title="How can you help?">
+  Whether you have professional trade skills, experience in grant writing, or
+  can support our fundraising efforts through match-funding, we would love to
+  hear from you. [Find out how to get involved →](/how-you-can-help/)
+</Aside>
