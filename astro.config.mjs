@@ -35,12 +35,12 @@ export default defineConfig({
 						{ label: 'Our Supporters', slug: 'supporters' },
 					],
 				},
-				{
-					label: 'References',
-					items: [
-					{ label: 'Meeting Minutes', slug: 'minutes' },
-					],
-				},
+				// {
+				// 	label: 'References',
+				// 	items: [
+				// 	{ label: 'Meeting Minutes', slug: 'minutes' },
+				// 	],
+				// },
 			],
 		}),
 	],
