@@ -1,0 +1,16 @@
+/* Index / Homepage */
+
+.supporter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    margin: 2rem 0;
+}
+
+.supporter-grid img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}

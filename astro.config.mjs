@@ -9,6 +9,7 @@ export default defineConfig({
 		starlight({
 			plugins: [starlightThemeRapide()],
 			title: 'Viewlands Playground',
+			customCss: ['./src/styles/custom.css',],
 			// social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{ label: 'Home', link: '/' },
