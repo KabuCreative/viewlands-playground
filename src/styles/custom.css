@@ -14,3 +14,19 @@
     height: auto;
     object-fit: contain;
 }
+
+
+/* Toggle logos for dark mode */
+/* 1. Hide the dark logo by default */
+.dark-only {
+  display: none !important;
+}
+
+/* 2. When the HTML tag has data-theme='dark', swap them */
+:root[data-theme='dark'] .light-only {
+  display: none !important;
+}
+
+:root[data-theme='dark'] .dark-only {
+  display: block !important;
+}

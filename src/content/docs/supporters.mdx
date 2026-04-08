@@ -13,6 +13,7 @@ import { Image } from "astro:assets";
 import westbankLogo from "../../assets/westbank-logo.jpg";
 import wickesLogo from "../../assets/wickes-logo.png";
 import kabuLogo from "../../assets/kabu-creative-logo.svg";
+import kabuLogoWhite from "../../assets/kabu-creative-logo-white.svg";
 
 Success in a project of this scale is only possible through collaboration. We are incredibly grateful to the organisations and local businesses that have already contributed time, expertise, and resources to help us improve our school grounds.
 
@@ -74,6 +75,16 @@ Wickes has been a key supporter of our "Quick Wins" phase by:
   alt="Kabu Creative Logo"
   width="200"
   height="100"
+  class="light-only"
+  style="margin-bottom: 1rem;"
+/>
+
+<Image
+  src={kabuLogoWhite}
+  alt="Kabu Creative Logo"
+  width="200"
+  height="100"
+  class="dark-only"
   style="margin-bottom: 1rem;"
 />
 

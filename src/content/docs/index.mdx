@@ -24,6 +24,7 @@ import { Image } from "astro:assets";
 import westbankLogo from "../../assets/westbank-logo.jpg";
 import wickesLogo from "../../assets/wickes-logo.png";
 import kabuLogo from "../../assets/kabu-creative-logo.svg";
+import kabuLogoWhite from "../../assets/kabu-creative-logo-white.svg";
 
 ## Our School Grounds Today
 
@@ -66,7 +67,18 @@ A project of this scale is only possible through the collective energy of our sc
 <div class="supporter-grid">
   <Image width="200" src={westbankLogo} alt="The Westbank Project Logo" />
   <Image width="200" src={wickesLogo} alt="Wickes Logo" />
-  <Image width="200" src={kabuLogo} alt="Kabu Creative Logo" />
+  <Image
+    width="200"
+    src={kabuLogo}
+    alt="Kabu Creative Logo"
+    class="light-only"
+  />
+  <Image
+    width="200"
+    src={kabuLogoWhite}
+    alt="Kabu Creative Logo"
+    class="dark-only"
+  />
 </div>
 
 <LinkButton href="/supporters/" variant="secondary">
