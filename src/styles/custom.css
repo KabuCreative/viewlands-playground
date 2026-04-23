@@ -1,5 +1,47 @@
 /* Index / Homepage */
 
+
+  .hero {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/playground-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    margin-top: -1.5rem; /* Offsets standard Starlight padding */
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  /* Make sure the text is white and stands out against the image */
+  .hero .copy {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .hero .sl-flex {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .hero h1, .hero p {
+    color: white !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+
+  .hero .tagline,
+  .hero .sl-link-button.minimal {
+      color: white !important;
+  }
+
+
 .supporter-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
