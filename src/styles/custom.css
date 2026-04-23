@@ -31,6 +31,12 @@
     text-align: center;
   }
 
+  @media (min-width: 800px) and (max-width: 1151px) {
+  .hero {
+    text-align: left;
+  }
+}
+
   .hero h1, .hero p {
     color: white !important;
     text-shadow: 0 2px 4px rgba(0,0,0,0.5);
