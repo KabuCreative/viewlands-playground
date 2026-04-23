@@ -13,6 +13,11 @@ export default defineConfig({
 			// social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{ label: 'Home', link: '/' },
+				{ 
+					label: 'Image Gallery', 
+					link: 'https://photos.app.goo.gl/u572zwjVaEj6E9La6', 
+					attrs: { target: '_blank', rel: 'noopener' }
+				},
 				{
 					label: 'Vision',
 					items: [
