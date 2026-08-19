@@ -10,6 +10,9 @@ export default defineConfig({
 			plugins: [starlightThemeRapide()],
 			title: 'Viewlands Playground',
 			customCss: ['./src/styles/custom.css',],
+			components: {
+				Hero: './src/components/Hero.astro',
+			},
 			// social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{ label: 'Home', link: '/' },
